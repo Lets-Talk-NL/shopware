@@ -388,6 +388,7 @@ class AttributeEntityCompiler
             'entity_class' => ArrayEntity::class,
             'entity_name' => self::mappingName($entity, $field),
             'fields' => $fields,
+            'entity' => $field->entity,
         ];
     }
 }
